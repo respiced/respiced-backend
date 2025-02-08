@@ -1,20 +1,14 @@
 {
   "name": "respiced-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Backend for Respiced",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/respiced/respiced-backend.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/respiced/respiced-backend/issues"
-  },
-  "homepage": "https://github.com/respiced/respiced-backend#readme",
-  "description": ""
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "dotenv": "^16.0.0"
+  }
 }
